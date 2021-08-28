@@ -23,6 +23,10 @@ If a request fails, it should show you it did (needs further testing), you can c
 
 Made by Slime-Senpai using Electronjs.
 
+## License
+
+The code that I wrote is licensed under the [Beerware](https://en.wikipedia.org/wiki/Beerware) license. 
+
 ## Disclaimer
 
 ChilloutVR is a property of Alpha Blend Interactive and I haven't got anything to do with that, I just made the app that scraps their website
