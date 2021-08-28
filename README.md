@@ -6,7 +6,7 @@ Get the Setup.exe from releases and install it.
 
 Inside the app, you can then enter your email and password to connect.
 
-Currently, on the Props / Friends and Share parts are done.
+Currently, only the Props / Friends and Share parts are done.
 
 You can select props in the Props tab, then select the friends you want to share them with in the Friends tab.
 
