@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; img-src *">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <title>CVShare</title>
+  </head>
+  <body>
+    <div id="sidebar" class="column">
+      <a href="login">Login</a>
+      <a href="avatars" disabled="true">Avatars <span class="count"></span></a>
+      <a href="props" disabled="true">Props <span class="count"></span></a>
+      <a href="friends" disabled="true">Friends <span class="count"></span></a>
+      <a href="share" disabled="true">Share</a>
+      <a href="settings" disabled="true">Settings</a>
+      <a href="server" disabled="true">Server (If I'm not lazy)</a>
+    </div>
+    <div class="content column">
+      <div id="login" class="page">
+          <div id="formBox">
+              <h1>Please login with your ChilloutVR logins to continue</h1>
+              <form>
+                  <input name="email"  type="text" placeholder="email">
+                  <input name="password" type="password" placeholder="password">
+                  <input type="submit">
+              </form>
+          </div>
+      </div>
+      <div id="avatars" class="page">
+        <h1>Avatars:</h1>
+      </div>
+      <div id="props" class="page">
+        <h1>Props:</h1>
+        <div class="refreshButton">Refresh</div>
+        <div class="saveButton">Save</div>
+        <div id="propList"></div>
+      </div>
+      <div id="friends" class="page">
+        <h1>Friends:</h1>
+        <div class="refreshButton">Refresh</div>
+        <div id="friendList"></div>
+      </div>
+      <div id="share" class="page">
+        <h1>Share:</h1>
+        <div id="confirmBox">
+          <h1>Are you sure you want to share <span id="propCount">0 prop</span> with <span id="friendCount">0 friend</span>?</h1>
+          <div id="confirmButton">Yes</div>
+          <div id="shareProgress"></div>
+          <div id="shareMissed">Missed objects (click to retry):</div>
+        </div>
+      </div>
+      <div id="settings" class="page">
+        <h1>Settings:</h1>
+      </div>
+      <div id="server" class="page">
+        <h1>Server:</h1>
+      </div>
+    </div>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
