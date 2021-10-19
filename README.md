@@ -25,7 +25,15 @@ Made by Slime-Senpai using Electronjs.
 
 ## License
 
-The code that I wrote is licensed under the [Beerware](https://en.wikipedia.org/wiki/Beerware) license. 
+The code I wrote is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+
+It used to be licensed under the [Beerware](https://en.wikipedia.org/wiki/Beerware) license, but this got changed because of personal reasons. If you started using this code before the change of license, feel free to send me a DM and we'll find a solution.
 
 ## Disclaimer
 
